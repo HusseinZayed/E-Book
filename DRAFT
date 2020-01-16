@@ -1,0 +1,26 @@
+1-Register : 
+ 
+////////////////////////////////////////////////
+2-Login Page : 
+ 1-login with Email And Password And Active Cookies Or Not
+ Validation Is: 
+ Email : 
+
+ 1-NOT repeat unique serverside
+ 2-filter for email username@company.domain clientside
+ 3-trim and remove all slashes and backslashes and qoutations clientside
+ 4-go to database and check the exist or Not
+ Password :
+
+ 1-Special Character one or more clientside
+ 2-The Length More than Or equal 8 clientside
+ 3-Has At Minimum One number clientside
+ 4-Has Lowercase letter and Uppercase letter one or more clientside
+ 5-remove trim and slashes and backslashes and qoutations clientside
+ 6-add salt value severside
+ 7-crypt the password after salt value serverside
+ cookies :  
+
+ 1-ask if active or not by checkbox clientside & serverside
+ 
+ ////////////////////////////////////////////////////

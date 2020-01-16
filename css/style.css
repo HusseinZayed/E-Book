@@ -1,0 +1,402 @@
+.icon-set{
+    background: #28292f;
+    margin-bottom: 0px;
+    border-radius: 0px;
+}
+
+.fa {
+    color: #fff;
+}
+
+.nav > li.facebook > a:hover {
+    background: #3b5998 !important;
+}
+
+.nav > li.twitter > a:hover {
+    background: #55acee !important;
+}
+
+.nav > li.instagram > a:hover {
+    background: #405de6;
+    background: -webkit-linear-gradient(left top, #405de6, #833ab4, #fd1d1d, #f56040, #fcaf45);
+    background: -o-linear-gradient(bottom right, #405de6, #833ab4, #fd1d1d, #f56040, #fcaf45);
+    background: -moz-linear-gradient(bottom right, #405de6, #833ab4, #fd1d1d, #f56040, #fcaf45);
+    background: linear-gradient(to bottom right, #405de6, #833ab4, #fd1d1d, #f56040, #fcaf45);
+}
+
+.nav > li.linkedin > a:hover {
+    background: #0077b5 !important;
+}
+.nav>li>a{
+    color: #fff;
+
+}
+.nav>li>a:hover{
+    background: transparent;
+}
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+    background: transparent;
+}
+.nav .open>li>a:focus, .nav>.open>li>a:hover{
+    background-color:#28292f;
+    color:#fff;
+ 
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover{
+    color: #FFF;
+}
+
+
+.navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.navbar-default {
+    background-color: #28292f;
+    border-color: transparent;
+    border-radius: 0px;
+    font-family: monospace;
+  
+}
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+    font-weight: bold;
+}
+.navbar-default .navbar-brand span{
+    color: #34e40a;
+    font-weight: bold;
+}
+.navbar-default .navbar-brand ,.navbar-default .navbar-brand:hover{
+    color: #fff;
+    font-weight: bold;
+}
+
+.navbar-default .navbar-nav>li>a:focus{
+color: #fff;
+font-weight: bold;
+}
+.navbar-default .navbar-nav>li>a:hover{
+    color: #34e40a;
+    font-weight: bold;
+    }
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
+    background-color:#28292f;
+    color:#fff;
+ 
+}
+.navbar-nav>li>.dropdown-menu{
+    background-color: #28292f;
+}
+.navbar-nav>li>.dropdown-menu>li>a{
+    color: #fff;
+}
+.navbar-nav>li>.dropdown-menu>li>a:hover{
+    background-color: #5d9845;
+}
+@media (max-width: 767px){
+
+.navbar-default .navbar-nav .open .dropdown-menu>li>a{
+
+    color: #fff;
+
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover{
+        color:#34e40a
+    }
+
+}
+#search{
+    width: 100px;
+}
+
+.b1{
+    height: 320px;
+    background: url(../img/books/book3.jpg) no-repeat;
+    background-size: cover;
+
+}
+
+.demo{
+    float: right;
+}
+.back{
+    background: url(../img/books/nature-grass-leaf-green.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    color:#fff;
+    height: 120px;;
+    width: 100%;
+    font-family: sans-serif;
+    font: bold ;
+}
+.img-book{
+    
+    width:75%;
+    margin-bottom: 20px;
+    /*background: url(../img/books/book3.jpg);*/
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position-x: 10px;
+    background-position-y: 100px;
+
+}
+
+.free{
+    height: 320px;
+    background: url(../img/books/book1.jpg) no-repeat;
+    background-size: cover;
+}
+.panel-footer>button{
+    padding: 6px 10px;
+}
+footer{
+
+    background-color: #28292f;
+    color: #FFF;
+
+}
+footer div{
+    font-family:monospace;
+    margin-top: 20px;
+}
+.nav>li.facebook>a:focus {
+    background: transparent;
+}
+.nav>li.twitter>a:focus {
+    background: transparent;
+}
+.nav>li.instagram>a:focus {
+    background: transparent;
+}
+.nav>li.linkedin>a:focus {
+    background: transparent;
+}
+.mono{
+    font-family: monospace;
+    color:black;
+    font-size: 15px;
+    
+}
+.nav>li>a:focus {
+    background: transparent;
+}
+address{
+    line-height: 40px;
+    font-weight: bold;
+}
+.controlers>a>i{
+color: red;
+padding-left: 20px;
+}
+.statistics>div{
+font-family: monospace;
+font-weight:bold;
+padding: 20px;    
+margin: 10px;  
+opacity: 0.8;
+}
+.statistics{
+    color: #FFF;
+}
+.statistics>div:hover{
+opacity: 1;
+}
+.statistics>:nth-child(1){
+    background: #f56040;
+}
+.statistics>:nth-child(2){
+    background: #5d9845;
+}
+.statistics>:nth-child(3){
+    background: #3b1355;
+}
+.statistics>:nth-child(4){
+    background: #405de6;
+}
+.statistics>.dash-panel-user{
+    background: #5d9845;
+    margin-top:130px;
+}
+@media only screen and (max-width: 978px) {
+    .statistics>.dash-panel-user{
+        background: #5d9845;
+        margin-top:10px;
+    }
+}
+#login .form-group{
+    width:500px;
+    margin: 0 auto;
+}
+.social .fa{
+    color: black;
+}
+.social .fa:hover{
+    color: #34e40a;
+}
+.controlers .fa-edit{
+color: #405de6;
+}
+.controlers .fa-eye{
+    color: #5d9845;
+}
+.user-info{
+    font-weight: bold;
+}
+.user-info.col-sm-6:nth-child(even),.user-info .col-xs-12:nth-child(even){
+    color: #5d9845;
+}
+.control-panel{
+    color: blue;
+    font-weight: bold;
+    margin: 20px 0px;
+}
+.mt{
+    margin-top: 30px;
+}
+.carousel-control.right ,.carousel-control.left{
+    background-image: none;
+}
+.hov>li a:hover {
+    color: #34e40a;
+    font-weight: bold;
+}
+.dash-panel{
+    height: 120px;
+}
+.downloaded-books-table .fa-check-circle{
+    color:#5d9845;
+}
+.downloaded-books-table .fa-eye{
+    color:#5d9845;
+}
+.gray{
+    color: #333;
+}
+.comment-body{
+    font-family: monospace;
+    font-size:13px;
+    margin-left: -40px;
+}
+.comment-user-name{
+    margin-left: -60px;
+}
+.comment-time{
+    margin-left: -60px;
+}
+.has-feedback label~.form-control-feedback {
+    top:54px;
+}
+.opinion{
+   height: 30px;
+}
+.download{
+    color: seagreen;
+    margin-right:15px;
+}
+.like,.dislike,.comment{
+    margin-right: 15px;
+}
+.like:hover{
+font-size: 20px;
+color: royalblue;
+}
+.dislike:hover{
+    font-size: 20px;
+    color: red;
+ }
+ .comment:hover{
+  color:  #044b3e;
+  font-size: 20px;
+ }
+.like-set{
+    font-size: 20px;
+    color: royalblue;
+    margin-right: 15px;
+}
+.dislike-set{
+    font-size: 20px;
+    color: red;
+    margin-right: 15px;
+}
+.comment-set{
+font-size: 20px;
+    color: red;
+    margin-right: 15px;
+}
+.action-header{
+    color: #333;
+    font-size: 15px;
+    font-weight: bold;
+}
+.rate{
+    color: #f56040;
+    font-size:20px;
+}
+.rate-value{
+    font-size:20px;
+}
+.show-more-comments{
+    color: #333;
+    font-size: 15px;
+}
+.show-more-comments i:hover{
+    color: rgb(6, 98, 114);
+    font-size: 15px;
+    cursor: pointer;
+}
+.mission,.vission,.resources,.team,.contacts{
+    text-align: center;
+    color: #333;
+    font-family: monospace;
+    font-size: 25px;
+    margin: 10px auto;
+  
+}
+.vission-content,.mission-content{
+    opacity: 0.7;
+}
+.img-source{
+    width: 115px;
+    height: 115px;
+}
+.msg-sent-error{
+    color: #5d9845;
+    text-align: left;
+    line-height: 50px;
+}
+.msg-sent-error .fa{
+    color: #4caf50;
+}
+.bg-yellow{
+    background-color:#111d5e;
+    color: #FFF;
+    padding: 20px;
+}
+.bg-green{
+    background-color: #b21f66;
+    color: #FFF;
+    padding: 20px;
+}
+.bg-tomato{
+    background-color: #fe346e;
+    padding: 20px;
+    color: #FFF;
+}
+.bg-blue{
+    background-color: #ffbd69;
+    padding: 20px;
+    color: #FFF;
+}
+.bg-black ul li a i{
+    color: black;
+}
+.bg-black ul li a i:hover{
+    color: #fff;
+}
+.color-error{
+    color: red;
+}
