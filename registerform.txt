@@ -1,0 +1,101 @@
+<div class="container">
+        <div class="row">
+                <form class="form" action="<?php echo $_SERVER['PHP_SELF'] ?>" method="post" id="registrationForm" enctype="multipart/form-data">
+                        <div class="col-sm-3">
+                                <div class="text-center">
+                                        <img src="img/default.png" class="avatar img-circle img-thumbnail" alt="avatar">
+                                        <h6>Upload a special photo...</h6>
+                                        <input type="file" class="text-center center-block file-upload" name="avatar" id="register_avatar">
+                                </div>
+                                <br>
+                                <div id="showmsgerror text-center">
+                                <?php
+                                                if($msg===1){
+                                                        echo "<img src='img/loading3.gif' width='100px' height='100px'> Loading...";
+                                                  echo "<br><div class='alert alert-success'> Account Created Successfully</div>";
+                                                }elseif(empty($msg)){   
+                                                       
+                                                }else{
+                                                        echo"<div class='alert alert-danger'>$msg</div>";
+                                                }
+                                        ?>
+                                </div>
+                        </div>
+
+                        <div class="col-sm-9">
+                                <ul class="nav nav-tabs">
+                                        <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
+                                </ul>
+                                <div class="tab-content">
+                                        <div class="tab-pane active" id="home">
+                                                <div class="form-group">
+                                                        <div class="col-xs-6">
+                                                                <label for="first_name">
+                                                                        <h4>First name</h4>
+                                                                </label>
+                                                                <!-- value="<?php //echo isset($_POST['first_name'])?$_POST['first_name']:"";?>" -->
+                                                                <input type="text" class="form-control" name="first_name"  id="register_first_name" placeholder="first name" title="enter your first name if any.">
+                                                        </div>
+                                                </div>
+                                                <div class="form-group">
+                                                        <div class="col-xs-6">
+                                                                <label for="last_name">
+                                                                        <h4>Last name</h4>
+                                                                </label>
+                                                                <input type="text" class="form-control" name="last_name"  id="register_last_name" placeholder="last name" title="enter your last name if any.">
+                                                        </div>
+                                                </div>
+                                                <div class="form-group">
+                                                        <div class="col-xs-6">
+                                                                <label for="phone">
+                                                                        <h4>Phone</h4>
+                                                                </label>
+                                                                <input type="text" class="form-control" name="phone" id="register_phone" placeholder="enter phone" title="enter your phone number if any.">
+                                                        </div>
+                                                </div>
+                                                <div class="form-group">
+                                                        <div class="col-xs-6">
+                                                                <label for="birthdate">
+                                                                        <h4>Birth Date</h4>
+                                                                </label>
+                                                                <input type="date" class="form-control" name="birthdate"  id="register_birthdate">
+                                                        </div>
+                                                </div>
+                                                <div class="form-group">
+                                                        <div class="col-xs-6">
+                                                                <label for="email">
+                                                                        <h4>Location</h4>
+                                                                </label>
+                                                                <input type="text" class="form-control" id="register_location" name="location"  placeholder="somewhere" title="enter a location">
+                                                        </div>
+                                                </div>
+                                                <div class="form-group">
+                                                        <div class="col-xs-6">
+                                                                <label for="email">
+                                                                        <h4>Email</h4>
+                                                                </label>
+                                                                <input type="email" class="form-control" name="email"  id="register_email" placeholder="you@email.com" title="enter your email.">
+                                                        </div>
+                                                </div>
+                                                <div class="form-group">
+                                                        <div class="col-xs-6">
+                                                                <label for="password">
+                                                                        <h4>Password</h4>
+                                                                </label>
+                                                                <input type="password" class="form-control" name="password" id="register_password" placeholder="password" title="enter your password.">
+                                                        </div>
+                                                </div>
+                                                <div class="form-group">
+                                                        <div class="col-xs-12">
+                                                                <br>
+                                                                <button class="btn  btn-success" type="register" name="register"><i class="glyphicon glyphicon-ok-sign"></i> Create</button>
+                                                                <button class="btn " type="reset"><i class="glyphicon glyphicon-repeat"></i> Reset</button>
+                                                        </div>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                        <!-- </form> -->
+                </form>
+        </div>
+</div>

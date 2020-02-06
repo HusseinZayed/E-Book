@@ -1,0 +1,48 @@
+<button class="btn btn-danger" data-target="#mymodal" data-toggle="modal">انشاء دعوه</button>
+    <div id="mymodal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header"> HEADER</div>
+                <div class="modal-body">
+
+                    <form class="form-horizontal" action="#">
+                        <div class="form-group">
+                            <label class="control-label col-sm-2" for="email">Email:</label>
+                            <div class="col-sm-10">
+                                <input type="email" class="form-control" id="email" placeholder="Enter email">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label col-sm-2" for="phone">Phone:</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" id="phone" placeholder="Enter phone">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label col-sm-2" for="Object">Object:</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" id="Object" placeholder="Enter object">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label col-sm-2" for="message">Message:</label>
+                            <div class="col-sm-10">
+                                <textarea class="form-control" id="message"
+                                    placeholder="Enter message"></textarea></textarea>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-12">
+                                <button type="submit" class="btn btn-primary">Send</button>
+                            </div>
+                        </div>
+                    </form>
+
+
+                </div>
+                <div class="modal-footer">FOOTER</div>
+            </div>
+        </div>
+
+    </div>
+/////////////////////////////////////////////////

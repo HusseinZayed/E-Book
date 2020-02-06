@@ -1,6 +1,8 @@
 <?php
+session_start();
+$page_name="About Us";
+$index=6;
 require_once('header.php');
-
 require_once('navbar.php');
 
 ?>

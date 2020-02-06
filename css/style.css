@@ -400,3 +400,23 @@ font-size: 20px;
 .color-error{
     color: red;
 }
+.has-feedback label~.form-control-feedback{
+    text-align: left;
+    top: 44px;  
+}
+.has-feedback label~.form-control-feedback .fa-check-circle{
+    color: #5d9845;
+}
+.has-feedback label~.form-control-feedback .fa-times-circle{
+    color: red;
+}
+.has-feedback label~.form-control-feedback{
+    top:52px;
+}.img-avatar{
+    border-radius: 50%;
+    height:150px;
+    width:150px;
+}
+.list-group-item{
+    cursor: pointer;
+}

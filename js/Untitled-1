@@ -1,0 +1,34 @@
+insert into branch(branch_cat_id,branch_name) values(1,'NonFiction');
+insert into branch(branch_cat_id,branch_name) values(1,'Fiction');
+insert into branch(branch_cat_id,branch_name) values(1,'History');
+insert into branch(branch_cat_id,branch_name) values(1,'Math');
+insert into branch(branch_cat_id,branch_name) values(1,'Kids');
+insert into branch(branch_cat_id,branch_name) values(1,'Programing');
+insert into branch(branch_cat_id,branch_name) values(1,'Science');
+insert into branch(branch_cat_id,branch_name) values(1,'Travel');
+insert into branch(branch_cat_id,branch_name) values(1,'Cook');
+insert into branch(branch_cat_id,branch_name) values(1,'Dictionaries');
+insert into branch(branch_cat_id,branch_name) values(1,'Fantasy');
+insert into branch(branch_cat_id,branch_name) values(1,'Auto Biographics');
+insert into branch(branch_cat_id,branch_name) values(1,'Action And Adventure');
+insert into branch(branch_cat_id,branch_name) values(1,'Self Help');
+insert into branch(branch_cat_id,branch_name) values(1,'ScienceFiction');
+insert into branch(branch_cat_id,branch_name) values(1,'Drama');
+insert into branch(branch_cat_id,branch_name) values(1,'Biographies');
+insert into branch(branch_cat_id,branch_name) values(1,'Religious');
+
+
+insert into branch(branch_cat_id,branch_name) values(2,'Historical');
+insert into branch(branch_cat_id,branch_name) values(2,'Detective');
+insert into branch(branch_cat_id,branch_name) values(2,'Romances');
+insert into branch(branch_cat_id,branch_name) values(2,'Political');
+insert into branch(branch_cat_id,branch_name) values(2,'Fiction');
+insert into branch(branch_cat_id,branch_name) values(2,'Non Fiction');
+
+
+insert into branch(branch_cat_id,branch_name) values(3,'Historical');
+insert into branch(branch_cat_id,branch_name) values(3,'Detective');
+insert into branch(branch_cat_id,branch_name) values(3,'Romances');
+insert into branch(branch_cat_id,branch_name) values(3,'Political');
+insert into branch(branch_cat_id,branch_name) values(3,'Fiction');
+insert into branch(branch_cat_id,branch_name) values(3,'Non Fiction');

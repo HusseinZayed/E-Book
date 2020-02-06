@@ -1,83 +1,30 @@
 <?php
+session_start();
+$page_name = "Home";
+$index = 2;
 require_once('header.php');
 require_once('navbar.php');
+
 ?>
 <!-- START SEARCH FORM -->
 
-<div class="container" id="searchhere">
+<div class="container">
     <div class="row">
-        <div class="col-xs-12">
-
+        <div class="col-xs-4 col-xs-offset-8">
             <form action="" method="POST" class="form-horizontal" role="form">
-
-                <div class="container">
-                    <div class="row">
-                        <div class="form-group text-capitalize text-center">
-                            <legend>Search For Any Book</legend>
-                        </div>
-                        <div class="form-group">
-                            <div class="col-sm-8 col-sm-offset-2">
-                                <input type="text" class="form-control" placeholder="Enter The Book Or Author">
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <div class="col-sm-8 col-sm-offset-2">
-                                <div class="row">
-                                    <div class="col-xs-6 col-sm-4">
-                                        <select class="form-control">
-                                            <option selected>select Department</option>
-                                            <option>Dep1</option>
-                                            <option>Dep2</option>
-                                            <option>Dep3</option>
-                                        </select>
-                                    </div>
-                                    <div class="col-xs-6 col-sm-4">
-                                        <input type="date" class="form-control" title="Select All Book From Now To This Date">
-                                    </div>
-                                    <div class="col-xs-6 price col-sm-4 col-xs-offset-0">
-                                        <div class="col-xs-6">
-                                            <div class="col-xs-6 text-primary">
-                                                Free
-                                            </div>
-                                            <div class="col-xs-6">
-                                                <input class="checkbox" type="checkbox" name="book_price">
-                                            </div>
-                                        </div>
-                                        <div class="col-xs-6">
-                                            <div class="col-xs-6 text-danger">
-                                                credit
-                                            </div>
-                                            <div class="col-xs-6">
-                                                <input class="checkbox" type="checkbox" name="book_price">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <div class="col-sm-8 col-sm-offset-2 text-center">
-                            <button type="submit" class="btn btn-danger" id="search">
-                                <i class="fa fa-search"></i> Submit</button>
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <legend class="text-center"></legend>
-                    </div>
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Enter Book Or Author Name">
+                    <span class="input-group-addon btn"><i class="fa fa-search gray"></i></span>
                 </div>
+            </form>
         </div>
     </div>
-
-    </form>
-
-</div>
-</div>
 </div>
 
+<br>
 <!-- END SEARCH FORM -->
 <!-- START ANNOUNCE MENT REGION -->
-<div class="container">
+<!-- <div class="container">
     <div class="row">
         <div class="col-xs-8 col-xs-offset-2">
 
@@ -88,7 +35,7 @@ require_once('navbar.php');
 
         </div>
     </div>
-</div>
+</div> -->
 <!-- END ANNOUNCE MENT REGION -->
 
 <!-- START THE MOST DOWNLOADED SECTION -->
@@ -114,7 +61,7 @@ require_once('navbar.php');
                     <div class="panel-heading text-center">
                         <em><strong style="font: 7;">7 $</strong></em>
                     </div>
-                    <div class="panel-body img-responsive b1 wow fadeInLeft">
+                    <div class="panel-body img-responsive b1 ">
                     </div>
                     <div class="panel-footer">
                         <button class="btn btn-danger down" data-toggle="modal" href='#modal-id-download'>BUY NOW
@@ -131,7 +78,7 @@ require_once('navbar.php');
                     <div class="panel-heading text-center">
                         <em><strong style="font: 7;">7 $</strong></em>
                     </div>
-                    <div class="panel-body img-responsive b1 wow fadeInLeft">
+                    <div class="panel-body img-responsive b1 ">
                     </div>
                     <div class="panel-footer">
                         <button class="btn btn-danger down" data-toggle="modal" href='#modal-id-download'>BUY NOW
@@ -148,7 +95,7 @@ require_once('navbar.php');
                     <div class="panel-heading text-center">
                         <em><strong style="font: 7;">Free</strong></em>
                     </div>
-                    <div class="panel-body img-responsive free wow fadeInLeft">
+                    <div class="panel-body img-responsive free">
                     </div>
                     <div class="panel-footer">
                         <a class="btn btn-success down" href="bookinfo.php"><i class="fa fa-eye"></i> Review</a>
@@ -164,10 +111,10 @@ require_once('navbar.php');
                     <div class="panel-heading text-center">
                         <em><strong style="font: 7;">Free</strong></em>
                     </div>
-                    <div class="panel-body img-responsive free wow fadeInLeft">
+                    <div class="panel-body img-responsive free ">
                     </div>
                     <div class="panel-footer">
-                    <a class="btn btn-success down" href="bookinfo.php"><i class="fa fa-eye"></i> Review</a>
+                        <a class="btn btn-success down" href="bookinfo.php"><i class="fa fa-eye"></i> Review</a>
                         <button class="btn btn-primary demo " data-toggle="modal" href="#modal-id2"><i class="fa fa-lightbulb-o"></i> Demo</button>
                     </div>
                     <div class="clearfix"></div>
@@ -181,7 +128,7 @@ require_once('navbar.php');
                     <div class="panel-heading text-center">
                         <em><strong style="font: 7;">7 $</strong></em>
                     </div>
-                    <div class="panel-body img-responsive b1 wow fadeInLeft">
+                    <div class="panel-body img-responsive b1">
                     </div>
                     <div class="panel-footer">
                         <button class="btn btn-danger down" data-toggle="modal" href='#modal-id-download'>BUY NOW
@@ -198,7 +145,7 @@ require_once('navbar.php');
                     <div class="panel-heading text-center">
                         <em><strong style="font: 7;">7 $</strong></em>
                     </div>
-                    <div class="panel-body img-responsive b1 wow fadeInLeft">
+                    <div class="panel-body img-responsive b1 ">
                     </div>
                     <div class="panel-footer">
                         <button class="btn btn-danger down" data-toggle="modal" href='#modal-id-download'>BUY NOW
@@ -215,10 +162,10 @@ require_once('navbar.php');
                     <div class="panel-heading text-center">
                         <em><strong style="font: 7;">Free</strong></em>
                     </div>
-                    <div class="panel-body img-responsive free wow fadeInLeft">
+                    <div class="panel-body img-responsive free ">
                     </div>
                     <div class="panel-footer">
-                    <a class="btn btn-success down" href="bookinfo.php"><i class="fa fa-eye"></i> Review</a>
+                        <a class="btn btn-success down" href="bookinfo.php"><i class="fa fa-eye"></i> Review</a>
                         <button class="btn btn-primary demo " data-toggle="modal" href="#modal-id2"><i class="fa fa-lightbulb-o"></i> Demo</button>
                     </div>
                     <div class="clearfix"></div>
@@ -231,10 +178,10 @@ require_once('navbar.php');
                     <div class="panel-heading text-center">
                         <em><strong style="font: 7;">Free</strong></em>
                     </div>
-                    <div class="panel-body img-responsive free wow fadeInLeft">
+                    <div class="panel-body img-responsive free ">
                     </div>
                     <div class="panel-footer">
-                    <a class="btn btn-success down" href="bookinfo.php"><i class="fa fa-eye"></i> Review</a>
+                        <a class="btn btn-success down" href="bookinfo.php"><i class="fa fa-eye"></i> Review</a>
                         <button class="btn btn-primary demo " data-toggle="modal" href="#modal-id2"><i class="fa fa-lightbulb-o"></i> Demo</button>
                     </div>
                     <div class="clearfix"></div>
@@ -281,7 +228,7 @@ require_once('navbar.php');
                     <div class="panel-heading text-center">
                         <em><strong style="font: 7;">7 $</strong></em>
                     </div>
-                    <div class="panel-body img-responsive b1 wow fadeInLeft">
+                    <div class="panel-body img-responsive b1 ">
                     </div>
                     <div class="panel-footer">
                         <button class="btn btn-danger down" data-toggle="modal" href='#modal-id-download'>BUY NOW
@@ -298,10 +245,10 @@ require_once('navbar.php');
                     <div class="panel-heading text-center">
                         <em><strong style="font: 7;">Free</strong></em>
                     </div>
-                    <div class="panel-body img-responsive free wow fadeInLeft">
+                    <div class="panel-body img-responsive free ">
                     </div>
                     <div class="panel-footer">
-                    <a class="btn btn-success down" href="bookinfo.php"><i class="fa fa-eye"></i> Review</a>
+                        <a class="btn btn-success down" href="bookinfo.php"><i class="fa fa-eye"></i> Review</a>
                         <button class="btn btn-primary demo " data-toggle="modal" href="#modal-id2"><i class="fa fa-lightbulb-o"></i> Demo</button>
                     </div>
                     <div class="clearfix"></div>
@@ -314,7 +261,7 @@ require_once('navbar.php');
                     <div class="panel-heading text-center">
                         <em><strong style="font: 7;">7 $</strong></em>
                     </div>
-                    <div class="panel-body img-responsive b1 wow fadeInLeft">
+                    <div class="panel-body img-responsive b1 ">
                     </div>
                     <div class="panel-footer">
                         <button class="btn btn-danger down" data-toggle="modal" href='#modal-id-download'>BUY NOW
@@ -331,10 +278,10 @@ require_once('navbar.php');
                     <div class="panel-heading text-center">
                         <em><strong style="font: 7;">Free</strong></em>
                     </div>
-                    <div class="panel-body img-responsive free wow fadeInLeft">
+                    <div class="panel-body img-responsive free ">
                     </div>
                     <div class="panel-footer">
-                    <a class="btn btn-success down" href="bookinfo.php"><i class="fa fa-eye"></i> Review</a>
+                        <a class="btn btn-success down" href="bookinfo.php"><i class="fa fa-eye"></i> Review</a>
                         <button class="btn btn-primary demo " data-toggle="modal" href="#modal-id2"><i class="fa fa-lightbulb-o"></i> Demo</button>
                     </div>
                     <div class="clearfix"></div>

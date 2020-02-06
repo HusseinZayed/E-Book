@@ -1,6 +1,3 @@
-   <?php
-
-    ?>
 
    <!-- START FOOTER -->
 
@@ -42,14 +39,14 @@
                    <!-- END SOCIAL & Contacts -->
                </div>
                <div class="col-xs-12">
-                   <h5>ALL Right <i class="fa fa-copyright"></i> Reserved By Hatem MOhamed Elsheref 2019/2020</h5>
+                   <h5>ALL Right <i class="fa fa-copyright"></i>Reserved  By Logame.org 2019/2020</h5>
                </div>
            </div>
        </div>
    </footer>
    <!-- END FOOTER -->
 
-   <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+  
    <script type="text/javascript" src="js/bootstrap.min.js"></script>
    <script type="text/javascript" src="js/wow.js"> </script>
    <script>
@@ -59,7 +56,3 @@
    </body>
 
    </html>
-
-   <?php
-
-    ?>
